@@ -72,7 +72,6 @@
   <project path="device/google/wahoo" name="device/google/wahoo" groups="device,wahoo" />
   <project path="device/google/wahoo-kernel" name="device/google/wahoo-kernel" groups="device,wahoo" clone-depth="1" />
   <project path="device/huawei/angler" name="platform_device_huawei_angler" remote="solo" />
-  <project path="device/huawei/angler-kernel" name="device/huawei/angler-kernel" groups="device,angler,broadcom_pdk,pdk" clone-depth="1" />
   <project path="device/lge/bullhead" name="device/lge/bullhead" groups="device,bullhead,pdk" />
   <project path="device/lge/bullhead-kernel" name="device/lge/bullhead-kernel" groups="device,bullhead,pdk" clone-depth="1" />
   <project path="device/linaro/bootloader/arm-trusted-firmware" name="device/linaro/bootloader/arm-trusted-firmware" />
@@ -626,6 +625,7 @@
 
   <project path="vendor/solo" name="platform_vendor_solo" remote="solo" />
   <project path="vendor/huawei" name="platform_vendor_huawei" remote="solo" />
+  <project path="kernel/huawei/angler" name="platform_kernel_huawei_angler" remote="solo" />
   
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
